@@ -33,3 +33,4 @@ This project aims to answer these questions using real job posting data.
 
 ## 📂 Project Structure
 Some job postings did not disclose company names. These were retained and labeled as ‘Not Disclosed’ to avoid unnecessary data loss.
+Location values were standardized by correcting typos, normalizing common variants, and creating metro-level groupings (e.g., Mumbai, Delhi NCR) to support clean geographic analysis in Power BI.
