@@ -34,3 +34,5 @@ This project aims to answer these questions using real job posting data.
 ## 📂 Project Structure
 Some job postings did not disclose company names. These were retained and labeled as ‘Not Disclosed’ to avoid unnecessary data loss.
 Location values were standardized by correcting typos, normalizing common variants, and creating metro-level groupings (e.g., Mumbai, Delhi NCR) to support clean geographic analysis in Power BI.
+Salary information appeared in multiple inconsistent formats such as “₹6–10 LPA”, “5 Lakh”, and “3–5 LPA”.
+These were standardized into three numeric columns: salary_min, salary_max, and salary_mid (average) in LPA to enable quantitative analysis.
