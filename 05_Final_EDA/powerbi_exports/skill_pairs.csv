@@ -1,0 +1,96 @@
+skill_pair,count,skill_1,skill_2
+"('python', 'sql')",485,python,sql
+"('machine learning', 'python')",382,machine learning,python
+"('power bi', 'sql')",274,power bi,sql
+"('data analysis', 'sql')",255,data analysis,sql
+"('sql', 'tableau')",251,sql,tableau
+"('power bi', 'tableau')",223,power bi,tableau
+"('power bi', 'python')",201,power bi,python
+"('python', 'tableau')",194,python,tableau
+"('machine learning', 'sql')",186,machine learning,sql
+"('data analysis', 'python')",171,data analysis,python
+"('aws', 'python')",166,aws,python
+"('deep learning', 'machine learning')",163,deep learning,machine learning
+"('data visualization', 'sql')",162,data visualization,sql
+"('data visualization', 'power bi')",150,data visualization,power bi
+"('deep learning', 'python')",148,deep learning,python
+"('data analytics', 'sql')",140,data analytics,sql
+"('data analysis', 'tableau')",139,data analysis,tableau
+"('data analysis', 'power bi')",132,data analysis,power bi
+"('data visualization', 'python')",128,data visualization,python
+"('data visualization', 'tableau')",122,data visualization,tableau
+"('aws', 'sql')",120,aws,sql
+"('data analytics', 'python')",119,data analytics,python
+"('data analytics', 'tableau')",97,data analytics,tableau
+"('data analysis', 'data visualization')",96,data analysis,data visualization
+"('data analytics', 'power bi')",96,data analytics,power bi
+"('aws', 'machine learning')",93,aws,machine learning
+"('data analysis', 'data analytics')",89,data analysis,data analytics
+"('python', 'statistics')",88,python,statistics
+"('data analytics', 'data visualization')",82,data analytics,data visualization
+"('data analysis', 'machine learning')",73,data analysis,machine learning
+"('machine learning', 'statistics')",70,machine learning,statistics
+"('python', 'spark')",69,python,spark
+"('sql', 'statistics')",67,sql,statistics
+"('pandas', 'python')",67,pandas,python
+"('machine learning', 'tableau')",63,machine learning,tableau
+"('aws', 'tableau')",61,aws,tableau
+"('deep learning', 'sql')",58,deep learning,sql
+"('spark', 'sql')",57,spark,sql
+"('data visualization', 'machine learning')",57,data visualization,machine learning
+"('aws', 'power bi')",56,aws,power bi
+"('machine learning', 'power bi')",55,machine learning,power bi
+"('machine learning', 'spark')",50,machine learning,spark
+"('pandas', 'sql')",45,pandas,sql
+"('excel', 'sql')",45,excel,sql
+"('machine learning', 'pandas')",44,machine learning,pandas
+"('data analytics', 'machine learning')",42,data analytics,machine learning
+"('aws', 'spark')",40,aws,spark
+"('data analysis', 'statistics')",37,data analysis,statistics
+"('aws', 'deep learning')",37,aws,deep learning
+"('data analysis', 'excel')",35,data analysis,excel
+"('aws', 'data analysis')",34,aws,data analysis
+"('nlp', 'python')",31,nlp,python
+"('machine learning', 'nlp')",30,machine learning,nlp
+"('aws', 'data visualization')",30,aws,data visualization
+"('excel', 'power bi')",29,excel,power bi
+"('deep learning', 'pandas')",29,deep learning,pandas
+"('excel', 'python')",28,excel,python
+"('data visualization', 'statistics')",27,data visualization,statistics
+"('data analysis', 'spark')",27,data analysis,spark
+"('statistics', 'tableau')",26,statistics,tableau
+"('power bi', 'statistics')",25,power bi,statistics
+"('aws', 'data analytics')",25,aws,data analytics
+"('deep learning', 'statistics')",25,deep learning,statistics
+"('spark', 'tableau')",24,spark,tableau
+"('power bi', 'spark')",22,power bi,spark
+"('deep learning', 'nlp')",22,deep learning,nlp
+"('spark', 'statistics')",22,spark,statistics
+"('deep learning', 'spark')",21,deep learning,spark
+"('data analytics', 'excel')",21,data analytics,excel
+"('aws', 'statistics')",21,aws,statistics
+"('aws', 'pandas')",19,aws,pandas
+"('data analytics', 'statistics')",16,data analytics,statistics
+"('excel', 'tableau')",16,excel,tableau
+"('data visualization', 'excel')",15,data visualization,excel
+"('data visualization', 'spark')",13,data visualization,spark
+"('deep learning', 'tableau')",13,deep learning,tableau
+"('pandas', 'tableau')",11,pandas,tableau
+"('data analysis', 'deep learning')",11,data analysis,deep learning
+"('data analytics', 'spark')",10,data analytics,spark
+"('data analytics', 'pandas')",8,data analytics,pandas
+"('pandas', 'statistics')",8,pandas,statistics
+"('deep learning', 'power bi')",8,deep learning,power bi
+"('excel', 'machine learning')",8,excel,machine learning
+"('data analysis', 'pandas')",7,data analysis,pandas
+"('data visualization', 'deep learning')",7,data visualization,deep learning
+"('pandas', 'power bi')",7,pandas,power bi
+"('pandas', 'spark')",7,pandas,spark
+"('data analytics', 'deep learning')",6,data analytics,deep learning
+"('data visualization', 'pandas')",6,data visualization,pandas
+"('nlp', 'sql')",3,nlp,sql
+"('excel', 'pandas')",3,excel,pandas
+"('excel', 'statistics')",3,excel,statistics
+"('aws', 'nlp')",2,aws,nlp
+"('data analytics', 'nlp')",1,data analytics,nlp
+"('aws', 'excel')",1,aws,excel
