@@ -1,230 +1,136 @@
-# Data Analyst Job Market Analysis
+# 📊 Data Analyst Job Market Analysis
 
 ## Overview
 
-This project focuses on analyzing the Indian job market for data-related roles such as Data Analyst, Data Scientist, Business Analyst, and Data Engineer.
-
-The goal of this project is to explore hiring trends, salary patterns, location-based opportunities, and in-demand technical skills using real-world job posting data. The project involves extensive data cleaning, preprocessing, feature engineering, skill normalization, and exploratory data analysis (EDA) to prepare the dataset for deeper analytical insights and dashboard creation.
+This project analyzes the Indian Data Analyst job market using real-world job postings. It explores hiring trends, salary patterns, in-demand skills, and career insights through data cleaning, exploratory data analysis (EDA), and an interactive Power BI dashboard.
 
 ---
 
-## Project Objectives
+## 🎯 Project Objectives
 
-* Analyze hiring trends for data-related roles in India
-* Identify the most in-demand technical skills
-* Explore salary distributions across different roles
-* Standardize messy real-world job posting data
-* Prepare clean datasets for visualization and dashboarding
-* Build a scalable analytics workflow for future extensions
-
----
-
-## Tech Stack
-
-### Languages & Libraries
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-
-### Tools
-
-* Jupyter Notebook
-* Git
-* GitHub
-* Power BI *(planned)*
-
-### Future Integrations
-
-* SQL
-* Power BI Dashboard
-* Web Scraping / APIs
-* Advanced Analytics & Machine Learning
+- Analyze hiring trends across data roles
+- Identify the most in-demand technical skills
+- Compare skill demand with salary
+- Analyze salary trends by role and experience
+- Build an interactive Power BI dashboard
 
 ---
 
-## Dataset Information
+## 🛠️ Tech Stack
 
-The dataset consists of job postings related to data-focused roles in India.
+**Languages & Libraries**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-### Included Roles
+**Visualization**
+- Power BI
 
-* Data Analyst
-* Data Scientist
-* Business Analyst
-* Data Engineer
-* Other related analytical roles
-
-### Data Challenges Handled
-
-* Missing company names
-* Inconsistent salary formats
-* Noisy and duplicate skill entries
-* Location normalization
-* Role standardization
-* Irrelevant and low-frequency skill filtering
+**Tools**
+- Jupyter Notebook
+- Git
+- GitHub
 
 ---
 
-## Data Cleaning & Preprocessing
+## 📂 Dataset Summary
 
-### Company Name Handling
+After preprocessing:
 
-Some job postings did not disclose company names. These were retained and labeled as `Not Disclosed` to avoid unnecessary data loss.
-
-### Location Normalization
-
-Location values were standardized by:
-
-* correcting typos,
-* normalizing common variants,
-* grouping locations into metro-level regions such as:
-
-  * Mumbai
-  * Delhi NCR
-  * Bangalore
-  * Hyderabad
-
-This improves consistency for geographic analysis and Power BI visualization.
-
-### Salary Standardization
-
-Salary information appeared in multiple inconsistent formats such as:
-
-* `₹6–10 LPA`
-* `5 Lakh`
-* `3–5 LPA`
-
-These were standardized into:
-
-* `salary_min`
-* `salary_max`
-* `salary_mid`
-
-All salary values were converted into numeric LPA format for quantitative analysis.
-
-### Skills Processing
-
-Skills were:
-
-* cleaned,
-* normalized,
-* standardized,
-* exploded into row-level entries,
-* filtered for relevance.
-
-An exploded skills dataset was created to support skill-frequency and demand analysis.
+- **1,808** Job Postings
+- **19,000+** Skill Records
+- **95** Skill Pair Combinations
 
 ---
 
-## Project Workflow
+## ⚙️ Project Workflow
 
-1. Raw dataset collection
-2. Data understanding and initial cleaning
-3. Salary preprocessing and normalization
-4. Skill cleaning and normalization
-5. Dataset explosion for skill-level analysis
-6. Role narrowing and filtering
-7. Creation of processed analytical datasets
-8. Exploratory Data Analysis (EDA)
-9. Dashboard preparation *(ongoing)*
+- Data Cleaning
+- Feature Engineering
+- Skill Normalization
+- Exploratory Data Analysis (EDA)
+- Power BI Dashboard Development
 
 ---
 
-## Repository Structure
+## 📈 Dashboard Highlights
+
+### Market Overview
+- Hiring Trends
+- Top Hiring Cities
+- Average Salary
+- Experience Analysis
+
+### Skills Intelligence
+- Most In-Demand Skills
+- Skill Demand vs Salary
+- Most Common Skill Pairs
+
+### Skill Demand vs Salary Landscape
+- Bubble Chart
+- Career Insights
+
+---
+
+## 💡 Key Insights
+
+- SQL is the most demanded skill across analyst roles.
+- Python and Machine Learning offer the strongest combination of demand and salary.
+- Python + SQL is the most common skill combination.
+- Bangalore is the leading hiring hub for data-related roles.
+- Higher experience levels consistently correspond to higher salaries.
+
+---
+
+# 📊 Power BI Dashboard
+
+## Market Overview
+
+![Market Overview](06_PowerBI_Dashboard/page1_market_overview.png)
+
+---
+
+## Skills Intelligence
+
+![Skills Intelligence](06_PowerBI_Dashboard/page2_skills_intelligence.png)
+
+---
+
+## Skill Demand vs Salary Landscape
+
+![Skill Demand vs Salary](06_PowerBI_Dashboard/page3_skill_demand_salary.png)
+
+---
+
+## 📁 Repository Structure
 
 ```text
 01_data/
-│
-├── raw_jobs.csv
-
 02_notebooks/
-│
-├── Initial cleaning notebooks
-├── Skills preprocessing notebooks
-├── Role filtering notebooks
-└── EDA preparation notebooks
-
 03_intermediate_work/
-│
-├── Intermediate datasets
-├── Experimental preprocessing outputs
-└── Workflow backup files
-
 04_processed_data/
-│
-├── Final cleaned datasets
-└── Exploded skills datasets
-
 05_Final_EDA/
-│
-├── EDA notebooks
-├── Final analytical datasets
-└── Visualization preparation
+06_PowerBI_Dashboard/
+README.md
 ```
 
 ---
 
-## Current Project Status
+## 🚀 Future Improvements
 
-### Completed
-
-* Data cleaning
-* Feature engineering
-* Salary preprocessing
-* Skill normalization
-* Role filtering
-* Exploded skills dataset creation
-* EDA dataset preparation
-
-### Ongoing
-
-* Exploratory Data Analysis
-* Visualization building
-* Dashboard development
-
-### Planned
-
-* Power BI dashboard
-* SQL integration
-* Automated data collection
-* Advanced analytics
-* Machine learning-based insights
+- SQL Integration
+- Automated Data Collection
+- Live Job Market Dashboard
+- Machine Learning-based Salary Prediction
 
 ---
 
-## Key Learning Outcomes
+## 👤 Author
 
-Through this project, I gained practical experience in:
+**Umang Chourasia**
 
-* Real-world data cleaning
-* Handling inconsistent datasets
-* Feature engineering
-* Data preprocessing pipelines
-* Skill normalization techniques
-* Exploratory Data Analysis
-* Git & GitHub workflow
-* Structuring analytics projects
+Aspiring Data Analyst
 
----
-
-## Future Scope
-
-Planned future enhancements include:
-
-* Interactive Power BI dashboard
-* SQL database integration
-* Automated data collection pipelines
-* Real-time job market tracking
-* Machine learning-based trend prediction
-* Skill recommendation insights
-
----
-
-## Author
-
-Umang Chourasia
-
-Aspiring Data Analyst | Data Science Enthusiast
+GitHub: https://github.com/Umang-Chourasia
